@@ -4,7 +4,7 @@
     Shared thethings As thethingsiO
     
     Shared Event Boot()
-        token = "qaKZMvgpv5aXzzpPq4_YWpxGXkL2vRV29itsm4Vse6Q"
+        token = "YOURTHINGTOKEN"
         thethings = New thethingsiO(token)
     End Event
     
