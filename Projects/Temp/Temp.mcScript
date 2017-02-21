@@ -1,0 +1,28 @@
+﻿Class Temp
+    
+    Shared token As String 
+    Shared thethings As thethingsiO
+    
+    Shared Event Boot()
+        token = "qaKZMvgpv5aXzzpPq4_YWpxGXkL2vRV29itsm4Vse6Q"
+        thethings = New thethingsiO(token)
+    End Event
+    
+    Shared Event checktemp() RaiseEvent Every 10 Seconds
+        LedRed = True
+        Dim temper As Float = TempSensor.GetTemp()
+        Dim tempstring As String = temper.ToString()
+        thethings.addValues("Temperature", tempstring)
+        thethings.publish()
+        LedRed = False
+    End Event
+    
+    Shared Event CheckVoltage() RaiseEvent Every 30 Seconds
+        LedGreen = True
+        Dim BattVolt As Short = Device.BatteryVoltage
+        Dim battString As String = BattVolt.ToString()
+        thethings.addValues("Battery", battString)
+        thethings.publish()
+        LedGreen = False
+    End Event
+End Class 

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectSetting xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ProjectName>Temp</ProjectName>
+  <DeviceType>mcMod120</DeviceType>
+  <LastDocumentName>Temp.mcScript</LastDocumentName>
+  <DocumentSettings>
+    <DocumentSetting>
+      <Name>Temp</Name>
+      <FileSpec>Temp.mcScript</FileSpec>
+      <Row>0</Row>
+      <Col>0</Col>
+      <BreakPointLineNumbers />
+    </DocumentSetting>
+    <DocumentSetting>
+      <Name>TempSensor</Name>
+      <FileSpec>..\..\libraries\temperature\tmp102\TempSensor.mcScript</FileSpec>
+      <Row>0</Row>
+      <Col>0</Col>
+      <BreakPointLineNumbers />
+    </DocumentSetting>
+    <DocumentSetting>
+      <Name>thethingsiO</Name>
+      <FileSpec>..\..\libraries\thethingsiO\mqtt-thethingsiO\thethingsiO.mcScript</FileSpec>
+      <Row>0</Row>
+      <Col>0</Col>
+      <BreakPointLineNumbers />
+    </DocumentSetting>
+  </DocumentSettings>
+  <ManualCompile>false</ManualCompile>
+</ProjectSetting>

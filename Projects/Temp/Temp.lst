@@ -1,0 +1,564 @@
+****** BUILD Of 'Temp' (21/02/2017 12:26:27)
+
+
+****** EVENT HANDLERS
+                                                                                                                 0:    0x006C   Address Priority 0 Event.   Code for 'Boot' starts at 108.
+                                                                                                                 1:    0x007B   Address Priority 1 Event.   Code for 'checktemp' starts at 123.
+                                                                                                                 2:    0x0094   Address Priority 2 Event.   Code for 'CheckVoltage' starts at 148.
+                                                                                                                 3:    0x0000   Address Priority 3 Event.   No Event defined.
+                                                                                                                 4:    0x0000   Address Priority 4 Event.   No Event defined.
+                                                                                                                 5:    0x0000   Address Priority 5 Event.   No Event defined.
+                                                                                                                 6:    0x0000   Address Priority 6 Event.   No Event defined.
+                                                                                                                 7:    0x0000   Address Priority 7 Event.   No Event defined.
+                                                                                                                 8:    0x0000   Address Priority 8 Event.   No Event defined.
+                                                                                                                 9:    0x0000   Address Priority 9 Event.   No Event defined.
+                                                                                                                 10:   0x0000   Address Priority 10 Event.  No Event defined.
+                                                                                                                 11:   0x0000   Address Priority 11 Event.  No Event defined.
+                                                                                                                 12:   0x0000   Address Priority 12 Event.  No Event defined.
+                                                                                                                 13:   0x0000   Address Priority 13 Event.  No Event defined.
+                                                                                                                 14:   0x0000   Address Priority 14 Event.  No Event defined.
+                                                                                                                 15:   0x0000   Address Priority 15 Event.  No Event defined.
+                                                                                                                 16:   0x0000   Address Priority 16 Event.  No Event defined.
+                                                                                                                 17:   0x0000   Address Priority 17 Event.  No Event defined.
+                                                                                                                 18:   0x0000   Address Priority 18 Event.  No Event defined.
+                                                                                                                 19:   0x0000   Address Priority 19 Event.  No Event defined.
+                                                                                                                 20:   0x0000   Address Priority 20 Event.  No Event defined.
+                                                                                                                 21:   0x0000   Address Priority 21 Event.  No Event defined.
+                                                                                                                 22:   0x0000   Address Priority 22 Event.  No Event defined.
+                                                                                                                 23:   0x0000   Address Priority 23 Event.  No Event defined.
+                                                                                                                 24:   0x0000   Address Priority 24 Event.  No Event defined.
+                                                                                                                 25:   0x0000   Address Priority 25 Event.  No Event defined.
+                                                                                                                 26:   0x0000   Address Priority 26 Event.  No Event defined.
+                                                                                                                 27:   0x0000   Address Priority 27 Event.  No Event defined.
+                                                                                                                 28:   0x0000   Address Priority 28 Event.  No Event defined.
+                                                                                                                 29:   0x0000   Address Priority 29 Event.  No Event defined.
+                                                                                                                 30:   0x0000   Address Priority 30 Event.  No Event defined.
+                                                                                                                 31:   0x0000   Address Priority 31 Event.  No Event defined.
+
+****** RUNTIME INFORMATION
+                                                                                                                 32:   0x014D   ScriptSizeLS (Size of the code in 2-byte instructions = 333)
+                                                                                                                 33:   0x0000   CodeSizeMS (Size of the code in 2-byte instructions = 333)
+                                                                                                                 34:   0x0006   CodeSizeInBlocks = 6
+                                                                                                                 35:   0x0002   StringSizeInBlocks = 2
+                                                                                                                 36:   0x0000   Reserved
+                                                                                                                 37:   0x0000   Reserved
+                                                                                                                 38:   0xEE73   Compile Date and Time 2017-02-21 12:26:27
+                                                                                                                 39:   0x203E   Compile Date and Time 2017-02-21 12:26:27
+                                                                                                                 40:   0x0000   Reserved
+                                                                                                                 41:   0x0000   Reserved
+                                                                                                                 42:   0x0000   Reserved
+                                                                                                                 43:   0x0000   Reserved
+                                                                                                                 44:   0x0000   Reserved
+                                                                                                                 45:   0x0000   PinMode Pin0=NotUsed  Pin1=NotUsed
+                                                                                                                 46:   0x0000   PinMode Pin2=NotUsed  Pin3=NotUsed
+                                                                                                                 47:   0x0000   PinMode Pin4=NotUsed  Pin5=NotUsed
+                                                                                                                 48:   0x0000   PinMode Pin6=NotUsed  Pin7=NotUsed
+                                                                                                                 49:   0x0000   PinMode Pin8=NotUsed   Pin9=NotUsed
+                                                                                                                 50:   0x0000   PinMode Pin10=NotUsed   Pin11=NotUsed
+                                                                                                                 51:   0x0000   PinMode Pin12=NotUsed   Pin13=NotUsed
+                                                                                                                 52:   0x0000   PinMode Pin14=NotUsed   Pin15=NotUsed
+                                                                                                                 53:   0x0000   PinMode Pin16=NotUsed   Pin17=NotUsed
+                                                                                                                 54:   0x0000   PinMode Pin18=NotUsed   Pin19=NotUsed
+                                                                                                                 55:   0x0000   PinMode Pin20=NotUsed   Pin21=NotUsed
+                                                                                                                 56:   0x0000   PinMode Pin22=NotUsed   Pin23=NotUsed
+                                                                                                                 57:   0x0000   Reserved
+                                                                                                                 58:   0x0000   Reserved
+                                                                                                                 59:   0x0000   Reserved
+                                                                                                                 60:   0x0000   Reserved
+                                                                                                                 61:   0x1800   IdleThread EntryPoint ValTypParams=0, RefTypParams=0
+                                                                                                                 62:   0x0015   SystemIdle
+                                                                                                                 63:   0x5002   BranchBack 62
+
+****** CLASS INFORMATION
+                                                                                                                 64:   0x0049   Class Descriptor for class 'Global'. Next Descriptor at 73.
+                                                                                                                 65:   0x0000   Base Class 'Object' Value represent a pointer if >= 64 (0x40) or ClassType if < 64 (0).
+                                                                                                                 66:   0x0000   Offset of RefObject data.(0).
+                                                                                                                 67:   0x0008   Size of RefObject data.(8).
+                                                                                                                 68:   0x0014   Size of all data.(20).
+                                                                                                                 69:   0x6C47   Part of the class name 'Global'.
+                                                                                                                 70:   0x626F   Part of the class name 'Global'.
+                                                                                                                 71:   0x6C61   Part of the class name 'Global'.
+                                                                                                                 72:   0x0000   Part of the class name 'Global'.
+                                                                                                                 73:   0x0051   Class Descriptor for class 'Temp'. Next Descriptor at 81.
+                                                                                                                 74:   0x0000   Base Class 'Object' Value represent a pointer if >= 64 (0x40) or ClassType if < 64 (0).
+                                                                                                                 75:   0x0000   Offset of RefObject data.(0).
+                                                                                                                 76:   0x0000   Size of RefObject data.(0).
+                                                                                                                 77:   0x0000   Size of all data.(0).
+                                                                                                                 78:   0x6554   Part of the class name 'Temp'.
+                                                                                                                 79:   0x706D   Part of the class name 'Temp'.
+                                                                                                                 80:   0x0000   Part of the class name 'Temp'.
+                                                                                                                 81:   0x005C   Class Descriptor for class 'TempSensor'. Next Descriptor at 92.
+                                                                                                                 82:   0x0000   Base Class 'Object' Value represent a pointer if >= 64 (0x40) or ClassType if < 64 (0).
+                                                                                                                 83:   0x0000   Offset of RefObject data.(0).
+                                                                                                                 84:   0x0000   Size of RefObject data.(0).
+                                                                                                                 85:   0x0000   Size of all data.(0).
+                                                                                                                 86:   0x6554   Part of the class name 'TempSensor'.
+                                                                                                                 87:   0x706D   Part of the class name 'TempSensor'.
+                                                                                                                 88:   0x6553   Part of the class name 'TempSensor'.
+                                                                                                                 89:   0x736E   Part of the class name 'TempSensor'.
+                                                                                                                 90:   0x726F   Part of the class name 'TempSensor'.
+                                                                                                                 91:   0x0000   Part of the class name 'TempSensor'.
+                                                                                                                 92:   0x0067   Class Descriptor for class 'thethingsiO'. Next Descriptor at 103.
+                                                                                                                 93:   0x0000   Base Class 'Object' Value represent a pointer if >= 64 (0x40) or ClassType if < 64 (0).
+                                                                                                                 94:   0x0000   Offset of RefObject data.(0).
+                                                                                                                 95:   0x0008   Size of RefObject data.(8).
+                                                                                                                 96:   0x000C   Size of all data.(12).
+                                                                                                                 97:   0x6874   Part of the class name 'thethingsiO'.
+                                                                                                                 98:   0x7465   Part of the class name 'thethingsiO'.
+                                                                                                                 99:   0x6968   Part of the class name 'thethingsiO'.
+                                                                                                                 100:  0x676E   Part of the class name 'thethingsiO'.
+                                                                                                                 101:  0x6973   Part of the class name 'thethingsiO'.
+                                                                                                                 102:  0x004F   Part of the class name 'thethingsiO'.
+                                                                                                                 103:  0x0000   End Of Class Data.
+
+****** APPLIACTION STATEMENTS
+*************************************************************************************************************
+
+000001  Class Temp                                                                                               104:  0x1800   EntryPoint              ValTypParams=0, RefTypParams=0
+
+000002      
+000003      Shared token As String 
+000004      Shared thethings As thethingsiO
+000005      
+                                                                                                                 106:  0x0001                           EventType=Boot
+                                                                                                                 107:  0x0700                           EventCategory=Interrupt
+000006      Shared Event Boot()                                                                                  108:  0x1800   EntryPoint              ValTypParams=0, RefTypParams=0
+
+000007          token = "qaKZMvgpv5aXzzpPq4_YWpxGXkL2vRV29itsm4Vse6Q"                                            109:  0x8409   PushLiteral             9
+                                                                                                                 110:  0x000C   PushGlobal              
+                                                                                                                 111:  0xD400   PopFieldRef             token
+
+000008          thethings = New thethingsiO(token)                                                               112:  0x000C   PushGlobal              
+                                                                                                                 113:  0xC400   PushFieldRef            token
+                                                                                                                 114:  0x805C   PushConstU10            92 (0x005C)
+                                                                                                                 115:  0x0010   ClassNew                
+                                                                                                                 116:  0x1C89   BranchSubr              254
+                                                                                                                 117:  0x1C8E   BranchSubr              260
+                                                                                                                 118:  0x000C   PushGlobal              
+                                                                                                                 119:  0xD404   PopFieldRef             thethings
+
+000009      End Event                                                                                            120:  0x0091   Return                  
+
+000010      
+                                                                                                                 121:  0x000A                           TimeValue=10
+                                                                                                                 122:  0x0300                           EventCategory=TimeInSeconds
+000011      Shared Event checktemp() RaiseEvent Every 10 Seconds                                                 123:  0x1800   EntryPoint              ValTypParams=0, RefTypParams=0
+                                                                                                                 124:  0xE021   AllocateStackSpace      ValTypeSize=1, RefTypeSize=1
+
+000012          LedRed = True                                                                                    125:  0x8001   PushConstU10            1 (0x0001)
+                                                                                                                 126:  0x0809   PopAndSetDigitalPin     Pin9
+
+000013          Dim temper As Float = TempSensor.GetTemp()                                                       127:  0x000C   PushGlobal              
+                                                                                                                 128:  0x1C2B   BranchSubr              172
+                                                                                                                 129:  0x9000   PopLocalI32             temper
+
+000014          Dim tempstring As String = temper.ToString()                                                     130:  0x8800   PushLocalI32            temper
+                                                                                                                 131:  0x007C   CvtFltToStr             
+                                                                                                                 132:  0x9400   PopLocalRef             tempstring
+
+000015          thethings.addValues("Temperature", tempstring)                                                   133:  0x8415   PushLiteral             21
+                                                                                                                 134:  0x8C00   PushLocalRef            tempstring
+                                                                                                                 135:  0x000C   PushGlobal              
+                                                                                                                 136:  0xC404   PushFieldRef            thethings
+                                                                                                                 137:  0x1C7E   BranchSubr              264
+                                                                                                                 138:  0xE420   FreeStackSpace          ValTypeSize=1, RefTypeSize=0
+
+000016          thethings.publish()                                                                              139:  0x000C   PushGlobal              
+                                                                                                                 140:  0xC404   PushFieldRef            thethings
+                                                                                                                 141:  0x1C92   BranchSubr              288
+                                                                                                                 142:  0xE420   FreeStackSpace          ValTypeSize=1, RefTypeSize=0
+
+000017          LedRed = False                                                                                   143:  0x8000   PushConstU10            0 (0x0000)
+                                                                                                                 144:  0x0809   PopAndSetDigitalPin     Pin9
+
+000018      End Event                                                                                            145:  0x0091   Return                  
+
+000019      
+                                                                                                                 146:  0x001E                           TimeValue=30
+                                                                                                                 147:  0x0300                           EventCategory=TimeInSeconds
+000020      Shared Event CheckVoltage() RaiseEvent Every 30 Seconds                                              148:  0x1800   EntryPoint              ValTypParams=0, RefTypParams=0
+                                                                                                                 149:  0xE021   AllocateStackSpace      ValTypeSize=1, RefTypeSize=1
+
+000021          LedGreen = True                                                                                  150:  0x8001   PushConstU10            1 (0x0001)
+                                                                                                                 151:  0x080A   PopAndSetDigitalPin     Pin10
+
+000022          Dim BattVolt As Short = Device.BatteryVoltage                                                    152:  0x00ED   DeviceBatteryVoltage    
+                                                                                                                 153:  0x9000   PopLocalI32             BattVolt
+
+000023          Dim battString As String = BattVolt.ToString()                                                   154:  0x8800   PushLocalI32            BattVolt
+                                                                                                                 155:  0x0080   CvtIntToStr             
+                                                                                                                 156:  0x9400   PopLocalRef             battString
+
+000024          thethings.addValues("Battery", battString)                                                       157:  0x8419   PushLiteral             25
+                                                                                                                 158:  0x8C00   PushLocalRef            battString
+                                                                                                                 159:  0x000C   PushGlobal              
+                                                                                                                 160:  0xC404   PushFieldRef            thethings
+                                                                                                                 161:  0x1C66   BranchSubr              264
+                                                                                                                 162:  0xE420   FreeStackSpace          ValTypeSize=1, RefTypeSize=0
+
+000025          thethings.publish()                                                                              163:  0x000C   PushGlobal              
+                                                                                                                 164:  0xC404   PushFieldRef            thethings
+                                                                                                                 165:  0x1C7A   BranchSubr              288
+                                                                                                                 166:  0xE420   FreeStackSpace          ValTypeSize=1, RefTypeSize=0
+
+000026          LedGreen = False                                                                                 167:  0x8000   PushConstU10            0 (0x0000)
+                                                                                                                 168:  0x080A   PopAndSetDigitalPin     Pin10
+
+000027      End Event                                                                                            169:  0x0091   Return                  
+
+000028  End Class                                                                                                105:  0x0097   ReturnMe                
+
+
+****** BLOCKS and VARIABLES for Temp
+    Block Class (Line 1:28)
+        Temp            Me              (ReadOnly, Offset=0)
+        Object          MyBase          (ReadOnly, Offset=0)
+        String          token           (SharedRefTypVariableOffset=0)
+        thethingsiO     thethings       (SharedRefTypVariableOffset=4)
+        Block Event Boot (Line 6:9)
+        End Block
+        Block Event checktemp (Line 11:18)
+            Float           temper          (LocalValTypVariableOffset=0)
+            String          tempstring      (LocalRefTypVariableOffset=0)
+        End Block
+        Block Event CheckVoltage (Line 20:27)
+            Short           BattVolt        (LocalValTypVariableOffset=0)
+            String          battString      (LocalRefTypVariableOffset=0)
+        End Block
+        Total Size of Member data including base classes = 0.
+    End Block
+
+
+*************************************************************************************************************
+
+000001  Class TempSensor                                                                                         170:  0x1800   EntryPoint              ValTypParams=0, RefTypParams=0
+
+000002      // Function returns the temperature in degree celcius or 
+000003      // Float.NaN if something is wrong
+000004      Shared Function GetTemp() As Float                                                                   172:  0x1800   EntryPoint              ValTypParams=0, RefTypParams=0
+                                                                                                                 173:  0xE022   AllocateStackSpace      ValTypeSize=1, RefTypeSize=2
+
+000005          // Define the properties of the I2C peripheral and device address
+000006          Dim sensor As I2c
+000007          sensor = I2c.Create(250000, Pin.SCL, Pin.SDA, 0x48)                                              174:  0x0110   PushConstI32            250000 (0x0003D090)
+                                                                                                                 175:  0xD090                           
+                                                                                                                 176:  0x0003                           
+                                                                                                                 177:  0x800D   PushConstU10            13 (0x000D)
+                                                                                                                 178:  0x800E   PushConstU10            14 (0x000E)
+                                                                                                                 179:  0x8048   PushConstU10            72 (0x0048)
+                                                                                                                 180:  0x803B   PushConstU10            59 (0x003B)
+                                                                                                                 181:  0x0010   ClassNew                
+                                                                                                                 182:  0x9400   PopLocalRef             sensor
+
+000008          
+000009          // Power up the sensor and give it some time to settle
+000010          Device.EnableTempSensor()                                                                        183:  0x8001   PushConstU10            1 (0x0001)
+                                                                                                                 184:  0x00F0   DeviceEnableTemp        
+
+000011          Thread.Sleep(40000) // See page 13 of the datasheet                                              185:  0x0110   PushConstI32            40000 (0x00009C40)
+                                                                                                                 186:  0x9C40                           
+                                                                                                                 187:  0x0000                           
+                                                                                                                 188:  0x00D5   ThreadSleep             
+                                                                                                                 189:  0xE420   FreeStackSpace          ValTypeSize=1, RefTypeSize=0
+
+000012          
+000013          // Read the sensor (only 2 bytes to read
+000014          Dim res As ListOfByte = sensor.Read(2)                                                           190:  0x8002   PushConstU10            2 (0x0002)
+                                                                                                                 191:  0x8C00   PushLocalRef            sensor
+                                                                                                                 192:  0x8001   PushConstU10            1 (0x0001)
+                                                                                                                 193:  0x00E0   I2cDeviceRead           
+                                                                                                                 194:  0x9401   PopLocalRef             res
+
+000015          
+000016          // See Tmp102 documentation how to interpret the data (page 8)
+000017          Dim temper As Float = Float.NaN                                                                  195:  0x0110   PushConstI32            -4194304 (0xFFC00000)
+                                                                                                                 196:  0x0000                           
+                                                                                                                 197:  0xFFC0                           
+                                                                                                                 198:  0x9000   PopLocalI32             temper
+
+000018          If res <> Nothing Then                                                                           199:  0x8C01   PushLocalRef            res
+                                                                                                                 200:  0x000E   PushNothing             
+                                                                                                                 201:  0x000B   RefCmpNE                
+                                                                                                                 202:  0x3C16   BranchFalse             225
+                                                                                                                 203:  0xE020   AllocateStackSpace      ValTypeSize=1, RefTypeSize=0
+
+000019              // Shift the partial part to the right nibble
+000020              Dim part As Float = res(1) >> 4                                                              204:  0x8001   PushConstU10            1 (0x0001)
+                                                                                                                 205:  0x8C01   PushLocalRef            res
+                                                                                                                 206:  0x00B4   ListItemGet             
+                                                                                                                 207:  0x8004   PushConstU10            4 (0x0004)
+                                                                                                                 208:  0x002F   IntShr                  
+                                                                                                                 209:  0x007E   CvtIntToFlt             
+                                                                                                                 210:  0x9001   PopLocalI32             part
+
+000021              // Temperature partial is 1/16*n where n is between 0 and 15            
+000022              part = part / 16                                                                             211:  0x8801   PushLocalI32            part
+                                                                                                                 212:  0xEA10   PushConstFlt            16.0
+                                                                                                                 213:  0x003B   FltDiv                  
+                                                                                                                 214:  0x9001   PopLocalI32             part
+
+000023              // Sign extend the byte to an integer
+000024              temper = res(0).SignExtend() + part                                                          215:  0x8000   PushConstU10            0 (0x0000)
+                                                                                                                 216:  0x8C01   PushLocalRef            res
+                                                                                                                 217:  0x00B4   ListItemGet             
+                                                                                                                 218:  0x8000   PushConstU10            0 (0x0000)
+                                                                                                                 219:  0x0005   SignExtend              
+                                                                                                                 220:  0x8801   PushLocalI32            part
+                                                                                                                 221:  0x0078   CvtIntToFlt1            
+                                                                                                                 222:  0x0039   FltAdd                  
+                                                                                                                 223:  0x9000   PopLocalI32             temper
+
+                                                                                                                 224:  0xE420   FreeStackSpace          ValTypeSize=1, RefTypeSize=0
+000025          End If                                                                                           
+
+000026          
+000027          // power off
+000028          Device.DisableTempSensor()                                                                       225:  0x8000   PushConstU10            0 (0x0000)
+                                                                                                                 226:  0x00F0   DeviceEnableTemp        
+
+000029          Return temper                                                                                    227:  0x8800   PushLocalI32            temper
+                                                                                                                 228:  0x0092   ReturnValType           
+
+000030      End Function                                                                                         229:  0x0093   Return0                 
+
+000031      
+000032      Shared Function GetDieTemp() As Float                                                                230:  0x1800   EntryPoint              ValTypParams=0, RefTypParams=0
+
+000033          // Just get the temperature and return
+000034          Return Device.TempDie                                                                            231:  0x00F7   DeviceTempDie           
+                                                                                                                 232:  0x0092   ReturnValType           
+
+000035      End Function                                                                                         233:  0x0093   Return0                 
+
+000036      
+000037      Shared Function ToFarenheit(celcius As Float) As Float                                               234:  0x1810   EntryPoint              ValTypParams=1, RefTypParams=0
+
+000038          Return (celcius * 9) / 5 + 32                                                                    235:  0x8800   PushLocalI32            celcius
+                                                                                                                 236:  0xEA09   PushConstFlt            9.0
+                                                                                                                 237:  0x003C   FltMul                  
+                                                                                                                 238:  0xEA05   PushConstFlt            5.0
+                                                                                                                 239:  0x003B   FltDiv                  
+                                                                                                                 240:  0xEA20   PushConstFlt            32.0
+                                                                                                                 241:  0x0039   FltAdd                  
+                                                                                                                 242:  0x0092   ReturnValType           
+
+000039      End Function                                                                                         243:  0x0093   Return0                 
+
+000040      
+000041      Shared Function ToCelcius(farenheit As Float) As Float                                               244:  0x1810   EntryPoint              ValTypParams=1, RefTypParams=0
+
+000042          Return (farenheit - 32) * 5 / 9                                                                  245:  0x8800   PushLocalI32            farenheit
+                                                                                                                 246:  0xEA20   PushConstFlt            32.0
+                                                                                                                 247:  0x003F   FltSub                  
+                                                                                                                 248:  0xEA05   PushConstFlt            5.0
+                                                                                                                 249:  0x003C   FltMul                  
+                                                                                                                 250:  0xEA09   PushConstFlt            9.0
+                                                                                                                 251:  0x003B   FltDiv                  
+                                                                                                                 252:  0x0092   ReturnValType           
+
+000043      End Function                                                                                         253:  0x0093   Return0                 
+
+000044      
+000045  End Class                                                                                                171:  0x0097   ReturnMe                
+
+
+****** BLOCKS and VARIABLES for TempSensor
+    Block Class (Line 1:45)
+        TempSensor      Me              (ReadOnly, Offset=0)
+        Object          MyBase          (ReadOnly, Offset=0)
+        Block Function GetTemp (Line 4:30)
+            I2c             sensor          (LocalRefTypVariableOffset=0)
+            ListOfByte      res             (LocalRefTypVariableOffset=1)
+            Float           temper          (LocalValTypVariableOffset=0)
+            Block If Then  (Line 18:25)
+                Float           part            (LocalValTypVariableOffset=1)
+            End Block
+        End Block
+        Block Function GetDieTemp (Line 32:35)
+        End Block
+        Block Function ToFarenheit (Line 37:39)
+            Float           celcius         (LocalValTypVariableOffset=0)
+        End Block
+        Block Function ToCelcius (Line 41:43)
+            Float           farenheit       (LocalValTypVariableOffset=0)
+        End Block
+        Total Size of Member data including base classes = 0.
+    End Block
+
+
+*************************************************************************************************************
+
+000001  Class thethingsiO                                                                                        254:  0x1800   EntryPoint              ValTypParams=0, RefTypParams=0
+
+000002      Private topic As String = ""                                                                         255:  0x841C   PushLiteral             28
+                                                                                                                 256:  0xB400   PopMemberRef            topic
+
+000003      Private payload As String = ""                                                                       257:  0x841C   PushLiteral             28
+                                                                                                                 258:  0xB404   PopMemberRef            payload
+
+000004      Private firstValue As Boolean
+000005      
+000006      Public Sub New(thingToken As String)                                                                 260:  0x1801   EntryPoint              ValTypParams=0, RefTypParams=1
+
+000007          topic = thingToken                                                                               261:  0x8C00   PushLocalRef            thingToken
+                                                                                                                 262:  0xB400   PopMemberRef            topic
+
+000008      End Sub                                                                                              263:  0x0097   ReturnMe                
+
+000009      
+000010      Public Function addValues(key As String, value As String) As Integer                                 264:  0x1802   EntryPoint              ValTypParams=0, RefTypParams=2
+
+000011          If Not firstValue Then                                                                           265:  0x9808   PushMemberU8            firstValue
+                                                                                                                 266:  0x001D   BooNot                  
+                                                                                                                 267:  0x3C04   BranchFalse             272
+
+000012              payload += ","                                                                               268:  0xA404   PushMemberRef           payload
+                                                                                                                 269:  0x841E   PushLiteral             30
+                                                                                                                 270:  0x0056   StrAdd                  
+                                                                                                                 271:  0xB404   PopMemberRef            payload
+
+000013          End If
+000014          payload += "{\x22key\x22: \x22" + key + "\x22, \x22value\x22:\x22" + value.ToString() + "\x22}"  272:  0xA404   PushMemberRef           payload
+                                                                                                                 273:  0x8420   PushLiteral             32
+                                                                                                                 274:  0x8C00   PushLocalRef            key
+                                                                                                                 275:  0x0056   StrAdd                  
+                                                                                                                 276:  0x8424   PushLiteral             36
+                                                                                                                 277:  0x0056   StrAdd                  
+                                                                                                                 278:  0x8C01   PushLocalRef            value
+                                                                                                                 279:  0x0056   StrAdd                  
+                                                                                                                 280:  0x8429   PushLiteral             41
+                                                                                                                 281:  0x0056   StrAdd                  
+                                                                                                                 282:  0x0056   StrAdd                  
+                                                                                                                 283:  0xB404   PopMemberRef            payload
+
+000015          firstValue = False                                                                               284:  0x8000   PushConstU10            0 (0x0000)
+                                                                                                                 285:  0xA808   PopMemberU8             firstValue
+
+000016          Return 1                                                                                         286:  0x0094   Return1                 
+
+000017      End Function                                                                                         287:  0x0093   Return0                 
+
+000018      
+000019      Public Function publish() As Integer                                                                 288:  0x1800   EntryPoint              ValTypParams=0, RefTypParams=0
+                                                                                                                 289:  0xE001   AllocateStackSpace      ValTypeSize=0, RefTypeSize=1
+
+000020          Dim pay As ListOfByte = New ListOfByte                                                           290:  0x800C   PushConstU10            12 (0x000C)
+                                                                                                                 291:  0x0010   ClassNew                
+                                                                                                                 292:  0x9400   PopLocalRef             pay
+
+000021          pay.Add("{\x22values\x22:[")                                                                     293:  0x842B   PushLiteral             43
+                                                                                                                 294:  0x8C00   PushLocalRef            pay
+                                                                                                                 295:  0x00A6   ListAddString           
+
+000022          pay.Add(payload)                                                                                 296:  0xA404   PushMemberRef           payload
+                                                                                                                 297:  0x8C00   PushLocalRef            pay
+                                                                                                                 298:  0x00A6   ListAddString           
+
+000023          pay.Add("]}")                                                                                    299:  0x842F   PushLiteral             47
+                                                                                                                 300:  0x8C00   PushLocalRef            pay
+                                                                                                                 301:  0x00A6   ListAddString           
+
+000024          Lplan.Publish("v2/things/" + topic, pay)                                                         302:  0x8431   PushLiteral             49
+                                                                                                                 303:  0xA400   PushMemberRef           topic
+                                                                                                                 304:  0x0056   StrAdd                  
+                                                                                                                 305:  0x8C00   PushLocalRef            pay
+                                                                                                                 306:  0x8000   PushConstU10            0 (0x0000)
+                                                                                                                 307:  0x8000   PushConstU10            0 (0x0000)
+                                                                                                                 308:  0x0101   LplanPublish            
+
+000025          pay.Clear()                                                                                      309:  0x8C00   PushLocalRef            pay
+                                                                                                                 310:  0x00AC   ListClear               
+
+000026          payload = ""                                                                                     311:  0x841C   PushLiteral             28
+                                                                                                                 312:  0xB404   PopMemberRef            payload
+
+000027          Thread.Sleep(10000)                                                                              313:  0x0110   PushConstI32            10000 (0x00002710)
+                                                                                                                 314:  0x2710                           
+                                                                                                                 315:  0x0000                           
+                                                                                                                 316:  0x00D5   ThreadSleep             
+                                                                                                                 317:  0xE420   FreeStackSpace          ValTypeSize=1, RefTypeSize=0
+
+000028          Thread.ClearHardwareEvent()                                                                      318:  0x8000   PushConstU10            0 (0x0000)
+                                                                                                                 319:  0x00FA   SetCleartHardwareEvent  
+
+000029          firstValue = True                                                                                320:  0x8001   PushConstU10            1 (0x0001)
+                                                                                                                 321:  0xA808   PopMemberU8             firstValue
+
+000030          Return 1                                                                                         322:  0x0094   Return1                 
+
+000031      End Function                                                                                         323:  0x0093   Return0                 
+
+000032      
+000033      Public Function setTopic(top As String) As Integer                                                   324:  0x1801   EntryPoint              ValTypParams=0, RefTypParams=1
+
+000034          topic = top                                                                                      325:  0x8C00   PushLocalRef            top
+                                                                                                                 326:  0xB400   PopMemberRef            topic
+
+000035          Return 1                                                                                         327:  0x0094   Return1                 
+
+000036      End Function                                                                                         328:  0x0093   Return0                 
+
+000037      
+000038      Public Function getTopic() As String                                                                 329:  0x1800   EntryPoint              ValTypParams=0, RefTypParams=0
+
+000039          Return topic                                                                                     330:  0xA400   PushMemberRef           topic
+                                                                                                                 331:  0x0095   ReturnRefType           
+
+000040      End Function                                                                                         332:  0x0096   ReturnNothing           
+
+000041  End Class                                                                                                259:  0x0097   ReturnMe                
+
+
+****** BLOCKS and VARIABLES for thethingsiO
+    Block Class (Line 1:41)
+        thethingsiO     Me              (ReadOnly, Offset=0)
+        Object          MyBase          (ReadOnly, Offset=0)
+        String          topic           (MemberRefTypVariableOffset=0)
+        String          payload         (MemberRefTypVariableOffset=4)
+        Boolean         firstValue      (MemberValTypVariableOffset=8)
+        Block Sub New (Line 6:8)
+            String          thingToken      (LocalRefTypVariableOffset=0)
+        End Block
+        Block Function addValues (Line 10:17)
+            String          key             (LocalRefTypVariableOffset=0)
+            String          value           (LocalRefTypVariableOffset=1)
+            Block If Then  (Line 11:13)
+            End Block
+        End Block
+        Block Function publish (Line 19:31)
+            ListOfByte      pay             (LocalRefTypVariableOffset=0)
+        End Block
+        Block Function setTopic (Line 33:36)
+            String          top             (LocalRefTypVariableOffset=0)
+        End Block
+        Block Function getTopic (Line 38:40)
+        End Block
+        Total Size of Member data including base classes = 12.
+    End Block
+
+
+
+
+****** GLOBAL_VARIABLES **********************************************
+token, Class=String, Offset=0, SourceClass=Temp
+thethings, Class=thethingsiO, Offset=4, SourceClass=Temp
+Number, Class=Integer, Offset=8, IsReadoly, SourceClass=Intrinsic
+Data, Class=Integer, Offset=12, IsReadoly, SourceClass=Intrinsic
+ProgramCounter, Class=Integer, Offset=16, IsReadoly, SourceClass=Intrinsic
+
+
+****** LITERALS ***********************************************
+     1 String "True"
+     4 String "False"
+     7 String "\r\n"
+     9 String "qaKZMvgpv5aXzzpPq4_YWpxGXkL2vRV29itsm4Vse6Q"
+    21 String "Temperature"
+    25 String "Battery"
+    28 String ""
+    30 String ","
+    32 String "{"key": ""
+    36 String "", "value":""
+    41 String ""}"
+    43 String "{"values":["
+    47 String "]}"
+    49 String "v2/things/"

@@ -1,0 +1,32 @@
+﻿Class thethingsiO
+    Private topic As String = ""
+    Private payload As String = ""
+    Private firstValue As Boolean = true
+    
+    Shared Function addValues(key As String, value As Object) As 
+    If  Not firstValue Then payload += "," 
+    End if
+        payload += "{\x22key\x22: \x22"+key+"\x22, \x22value\x22:"+value.ToString()+"}"
+        firstValue = false
+    End Function
+    
+    Shared Function publish() As
+        payload += "]}"
+        Dim pay As ListOfByte = new ListOfByte
+        pay.Add(payload)
+        Lplan.Publish("v2/things/"+topic, pay)
+        pay.Clear()
+        Thread.Sleep(10000)
+        Thread.ClearHardwareEvent()
+        firstValue = true
+        payload = "{\x22values\x22:["
+    End Function
+    
+    Shared Function setTopic(top As String) As 
+        topic = top;
+    End Function
+    
+    Shared Function getTopic() As String
+        return topic
+    End Function
+End Class
