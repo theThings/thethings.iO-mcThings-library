@@ -24,7 +24,7 @@ Shared Event Boot()
 
 5. Configure your mcGateway mqtt options:
 
-<img src="http://blog.thethings.io/wp-content/uploads/2017/02/thethings-gateway-config-1.png" alt="Drawing" width="200"/>
+<img src="http://blog.thethings.io/wp-content/uploads/2017/02/thethings-gateway-config-1.png" alt="Drawing"/>
 
 6. Deploy the code to your mcModule.
 
