@@ -20,7 +20,11 @@ In order to upload this project in your device, follow this steps:
 ```
 Shared Event Boot()
     token = "YOURTHINGTOKEN"
-    ```
+```
 
-5. Deploy the code to your mcModule.
+5. Configure your mcGateway mqtt options:
+
+<img src="http://blog.thethings.io/wp-content/uploads/2017/02/thethings-gateway-config-1.png" alt="Drawing" width="200"/>
+
+6. Deploy the code to your mcModule.
 
